@@ -17,7 +17,11 @@ public class Greeting
     
     public String getStatus(){
     	
+<<<<<<< HEAD
     	return "BAD";
+=======
+    	return "GOOD";
+>>>>>>> 1f933ba2b6de01b02268578cc717013654c00925
     	
     }
 }
