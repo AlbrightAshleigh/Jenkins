@@ -17,8 +17,8 @@ node{
     if(response=='Yes') {
       node{
       stage 'Deploy'
-      def mvn_version = 'Maven'
-      withEnv( ["PATH+MAVEN=${tool mvn_version}/bin"] ) {
+      def mvn_version1 = 'Maven'
+      withEnv( ["PATH+MAVEN=${tool mvn_version1}/bin"] ) {
       sh 'mvn install'
           }
       }
